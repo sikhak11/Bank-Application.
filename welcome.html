@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    
+<link rel="stylesheet" type="text/css" href="welcome.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body style="background-image: url('images.jpg'); background-size: 100%; background-attachment: fixed;">
+    <div class="img">
+    <img src="hdfc-logo (2).jpg" alt="image">
+    </div>
+
+    <!-- <h1 align="center">Welcome to HDFC Bank</h1> -->
+    <h1 align="center">Welcome to HDFC Bank</h1>
+    
+    <ul id="list">
+        <li id="one"><a href="#home">Home</a></li>
+        <li id="two"><a href="#loans">Loan</a></li>
+        <li id="three"><a href="#Contact">Contact Us</a></li>
+        <li id="four"><a href="#about">About</a></li>
+    </ul><br/>
+    <fieldset>
+        <legend><b>Account Information</b></legend>
+        <form> 
+            <!-- <p align="left"> <b>Deposit : <input type="text" id="deposit"/></b></p>
+            <p align="center"> <b>Available balanace in month is:  </b></p>
+            <p align="right"> <b> Withdraw : <input type="text" id="withdraw"/> </b></p> -->
+
+            <table cellpadding="25" cellspacing="50">
+                <tr>
+                    <td><b>Deposit : <input type="text" id="deposit"/></b>  </td>
+                    <td> <b>Available balance is : <input type="text" id="balance" value="0"/> </b> </td>
+                    <td> <b> Withdraw : <input type="text" id="withdraw"/> </b> </td>
+                </tr>
+               
+            </table>
+        </form>
+    </fieldset>
+    <br/>
+
+
+    <fieldset>
+        <legend><b>Customer Details : </b></legend>
+        <form>
+            <p align="center"> <b>CRN : Shikha</b></p>
+            <p align="center"> <b>Account Number : 8861149125</b> </p>
+            <p align="center"> <b> Account HolderName : 344678588676</b></p>
+        </form>
+    </fieldset>
+    <br/>
+
+
+    <fieldset>
+        <legend><b>Transaction Details : </b></legend>
+        <form>
+            <table cellpadding="10" cellspacing="15">
+                <td> <b> Select the Transaction type : </b></td>
+                <td><select name="dropdown" id="drop">
+                    <option value="Deposit">   Deposit </option>
+                    <option value="Withdraw" > Withdraw </option>
+                </select></td>
+            
+                <td> <b>Select the Mood of Transfer : </b> </td>
+                <td><select  name="dropdown" id="Drop">
+                    <option value="cash"> Cash</option>
+                    <!-- <option value="cheque"> Cheque </option> -->
+                </select></td>
+            
+
+         <td >   <b> Amount : <input type="text" id="amount"/> </b> </td>
+    <td> <input type="button" value="SUBMIT" id="btn"/> </td>
+        </table>
+        </form>
+    </fieldset>
+    <br/>
+
+<center>
+    <table id="Table">
+<th>Transaction Type</th>
+<th>Amount</th>
+<tbody id="table">
+
+</tbody>
+
+</table>
+</center>
+</body>
+
+<script src="welcome.js"></script>
+</html>

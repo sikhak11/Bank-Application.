@@ -1,0 +1,78 @@
+.img {
+    width: 50px;
+    height: 60px;
+    display: block;
+    margin-left: 450px;
+    margin-right: 200px;
+    /* position: center; */
+}
+
+#list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: skyblue;
+}
+
+#one{
+    float: left;
+}
+
+#one a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#one a:hover{
+    background-color:blue;
+}
+
+#two{
+    float: left;
+}
+#two a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#two a:hover{
+    background-color: blue;
+}
+
+#three{
+    float: left;
+}
+#three a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#three a:hover{
+    background-color: blue;
+}
+
+#four{
+    float: left;
+}
+#four a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#four a:hover{
+    background-color: blue;
+}
+
+#Table{
+    border: black 2px solid;
+    
+}
